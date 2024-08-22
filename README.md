@@ -18,15 +18,8 @@ The application fetches data in near real-time and processes it concurrently to 
 - **godotenv**: For managing environment variables.
 
 ## How to Use It
-
-1. **Clone the Repository:**
-       
-    ```bash
-    git clone https://github.com/yourusername/reddit-stats-tracker.git cd reddit-stats-tracker
     
-    ```
-    
-2. **Set Up Environment Variables:** Create a `.env` file in the project root with your Reddit API credentials:
+1. **Set Up Environment Variables:** Create a `.env` file in the project root with your Reddit API credentials:
     
     ```bash
     REDDIT_CLIENT_ID=your_client_id 
@@ -35,13 +28,13 @@ The application fetches data in near real-time and processes it concurrently to 
     REDDIT_PASSWORD=your_password
     ```
     
-3. **Install Dependencies:**
+2. **Install Dependencies:**
     
     ```bash
     go mod tidy
     ```
     
-4. **Run the Application:**
+3. **Run the Application:**
     
     ```bash
     go run main.go
